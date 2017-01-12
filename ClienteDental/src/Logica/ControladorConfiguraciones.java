@@ -29,7 +29,7 @@ public class ControladorConfiguraciones {
         if(!fichero.exists()){
             if(fichero.createNewFile()){
                 BufferedWriter crearProperties = new BufferedWriter(new FileWriter(fichero.getPath().toString()));
-                crearProperties.write("carpetaSistema = /Documents/NetBeansProjects/ClienteDental\n");
+                crearProperties.write("carpetaSistema = /Documents/NetBeansProjects/ClienteDental/ClienteDeental\n");
                 crearProperties.write("fondoMenuPrincipal = menuPrincipal 2.png\n"); 
                 crearProperties.write("lookAndFeel = com.sun.java.swing.plaf.windows.WindowsLookAndFeel\n");
                 crearProperties.close();
